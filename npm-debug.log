@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/issue9mm/.nvm/v0.10.19/bin/node',
+1 verbose cli   '/Users/issue9mm/.nvm/v0.10.19/bin/npm',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.19
+4 error Error: Problems were encountered
+4 error Please correct and try again.
+4 error missing: mongoose@latest, required by Brisk@0.0.1
+4 error missing: socket.io@latest, required by Brisk@0.0.1
+4 error missing: qs@0.6.5, required by connect@2.9.0
+4 error missing: bytes@0.2.0, required by connect@2.9.0
+4 error missing: pause@0.0.1, required by connect@2.9.0
+4 error missing: uid2@0.0.2, required by connect@2.9.0
+4 error missing: multiparty@2.1.8, required by connect@2.9.0
+4 error missing: keypress@0.1.x, required by commander@1.2.0
+4 error missing: mime@~1.2.9, required by send@0.1.4
+4 error extraneous: brunch@1.7.6 /Users/issue9mm/.virtualenvs/sock/node_modules/brunch
+4 error     at shrinkwrap_ (/Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/lib/shrinkwrap.js:29:15)
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/lib/shrinkwrap.js:23:5
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/lib/ls.js:43:30
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/read-installed/read-installed.js:119:5
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/read-installed/read-installed.js:233:14
+4 error     at cb (/Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/read-installed/read-installed.js:233:14
+4 error     at cb (/Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+4 error     at /Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/read-installed/read-installed.js:233:14
+4 error     at cb (/Users/issue9mm/.nvm/v0.10.19/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+5 error If you need help, you may report this log at:
+5 error     <http://github.com/isaacs/npm/issues>
+5 error or email it to:
+5 error     <npm-@googlegroups.com>
+6 error System Darwin 12.5.0
+7 error command "/Users/issue9mm/.nvm/v0.10.19/bin/node" "/Users/issue9mm/.nvm/v0.10.19/bin/npm" "shrinkwrap"
+8 error cwd /Users/issue9mm/.virtualenvs/sock
+9 error node -v v0.10.19
+10 error npm -v 1.3.11
+11 verbose exit [ 1, true ]
